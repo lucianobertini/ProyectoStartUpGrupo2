@@ -1,0 +1,120 @@
+
+html{
+    background-color: rgb(241, 241, 241)
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+nav{
+    margin-top: 5%;
+}
+header  a{
+    text-decoration: none;
+    color: black;
+   
+    
+}
+header { 
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;    
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    
+}
+.marco{
+    
+    margin: 0px;
+    padding: 0px;
+    height: 35%;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    left: 35%;
+    bottom: 25%;
+    border-radius: 5%;
+    border-color: black;
+    border-width: 1%;
+    text-align: center;
+}
+div p{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 3%;
+    padding-bottom: 20%;
+
+}
+.boton{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 0%;
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+}
+.boton:hover{
+    background-color: rgb(241, 241, 241);
+}
+.boton:active{
+    background-color: rgb(158, 158, 158);
+}
+.botonera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botonera .boton a{
+    text-align: center;
+}
+.logo{
+    display: flex;
+    
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+    header nav a {
+        margin: 10px;
+       }
+    nav{
+        margin-top: auto;
+       }
+      }
+      p {
+        font-style: unset;
+        font-size: 25px
+
+      }
+      .lista{
+        display: inline-block;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 50%;
+        height: 0px;
+        width: 500px;
+        border-radius: 10px;
+    }
+    footer a {
+        text-decoration: none;
+        color:black;
+        padding: 15px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        }
+        i{
+            display: flex;
+            justify-content: flex-end;
+        }
